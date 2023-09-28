@@ -57,7 +57,7 @@ const Navbar = () => {
                         },
                     }}
                 >
-                    MitraSociety
+                    MEET-ONE
                 </Typography>
                 {isNonMobileScreens && (
                     <FlexBetween

@@ -9,13 +9,13 @@ const LoginPage = () => {
 
     return (
         <Box>
-            <Box width="100%" backgroundColor={theme.palette.background.alt} p="1rem 6%" textAlign="center">
+            <Box backgroundColor={theme.palette.background.alt} p="1rem 6%" textAlign="center">
                 <Typography
                     fontWeight="bold"
                     fontSize="32px"
                     color="primary"
                 >
-                    MitraSociety
+                    MEET-ONE
                 </Typography>
             </Box>
             <Box width={isNonMobileScreens ? "50%" : "93%"}
@@ -25,7 +25,7 @@ const LoginPage = () => {
                 backgroundColor={theme.palette.background.alt}
             >
                 <Typography fontWeight="500" variant="h5" sx={{ mb: "1.5rem" }}>
-                    Welcome to MitraSociety, the social media sites for Ambiverts
+                    Welcome to MEET-ONE, the social media sites for Ambiverts
                 </Typography>
                 <Form />
             </Box>
